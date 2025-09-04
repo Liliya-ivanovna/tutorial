@@ -6,7 +6,8 @@
   "main": "src/crawler.js",
   "scripts": {
     "start": "node src/crawler.js",
-    "crawl": "node src/crawler.js"
+    "crawl": "node src/crawler.js",
+    "workua": "node src/workua.js"
   },
   "author": "",
   "license": "MIT",

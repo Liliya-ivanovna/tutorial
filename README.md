@@ -31,4 +31,21 @@ Outputs will be saved to:
 - Each task page is downloaded into `data/html/` with a sanitized filename derived from the URL path.
 - `tasks.json` and `tasks.csv` include a `localPath` column pointing to the saved HTML file when available.
 
+## Work.ua Jobs Parser (Kyiv Team Leader, page 2)
+
+Parses `https://www.work.ua/jobs-kyiv-team+leader/?page=2` and outputs JSON/CSV with job listings.
+
+### Run
+
+```bash
+npm run workua
+```
+
+Outputs:
+
+- `data/workua.json`
+- `data/workua.csv`
+
+Captured fields: title, company, location, salary, date, url.
+
 
